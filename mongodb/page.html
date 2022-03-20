@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>학생 개인정보 입력</p>
+    <form action="http://localhost:1206/api/students" method="post">
+    학생 학번:<input type="text" name="id" value=" "><br>
+    학생 이름:<input type="text" name="name" value=" "><br>
+    학생 나이:<input type="text" name="age" value=" "><br>
+    학생 전공:<input type="text" name="major" value=" "><br>
+    학생 학년:<input type="text" name="grade" value=" "><br>
+    <input type="submit" value="제출하기">
+    </form>
+    
+    <form action="http://localhost:1206/api/students" method="get">
+        <input type="submit" value="정보 모아보기" >
+    </form>
+</body>
+</html>
